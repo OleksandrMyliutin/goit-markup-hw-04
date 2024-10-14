@@ -113,18 +113,20 @@ nav a:focus{
 
 
 
-                   /* pay-attention section */
+                   /* hero section */
 
-.pay-attention {
+.hero {
     background: #2e2f42;
     padding: 188px 0px;
+    background-image:linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.pay-attention-container{
-    
-}
-
-.h-attention{
+.h-hero{
     display: block;
     flex-shrink: 0;
     font-weight: 700;
@@ -146,7 +148,7 @@ nav a:focus{
     color: #ffffff;
     cursor: pointer;
 }
-.attention-button{
+.hero-button{
     display: block;
     min-width: 169px;
     height: 56px;
@@ -159,16 +161,16 @@ nav a:focus{
     margin-right: auto;
 }
 
-.attention-button:hover,
-.attention-button:focus{
+.hero-button:hover,
+.hero-button:focus{
     background-color: #404BBF;
 
 }
-                    /* end of pay-attention section */
+                    /* end of hero section */
 
                     /* advantages section */
 
- .container-fix {
+ .advantages {
     padding-bottom: 120px;
     padding-top: 120px;
 } 
@@ -196,6 +198,22 @@ nav a:focus{
     overflow: hidden;
 }
 
+.container-svg-cards{
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+}
+
+.svg-cards{
+    margin: 24px 100px;
+}
+
+.title-svg-cards{
+    margin-top: 8px;
+}
+
 .title-third{
     margin-bottom: 8px;
     font-weight: 500;
@@ -219,9 +237,6 @@ nav a:focus{
 
 .team{
     background: #f4f4fd;
-}
-
-.team-container .container {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -231,7 +246,7 @@ nav a:focus{
 }
 
 .title-second{
-    margin-bottom: 72px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -249,12 +264,48 @@ nav a:focus{
     
 }
 
+.container-social-links{
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-bottom: 32px;
+}
+
+.social-links{
+    display: flex;
+    gap: 24px;
+    flex-shrink: 0;
+    align-self: flex-end;
+}
+
+.social-links .link{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#4d5ae5;
+}
+.svg-icons{
+    margin: 12px;
+}
+.social-links .svg-icons{
+    fill: #fff;
+}
+
+.social-links .link:hover {
+    background-color: #fff;
+}
+
+.social-links .link:hover .svg-icons{
+    fill: #4d5ae5;
+}
+
 .point-team{
     background: #fff;
     text-align: center;
     border-top-right-radius: 4px;
     background: #fff;
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 
@@ -268,9 +319,7 @@ nav a:focus{
     padding-bottom: 120px;
 }
         
-.portfolio-container{
-    
-}
+
 .portfolio-container .title-second{
     margin-bottom: 72px;
 }
