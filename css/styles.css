@@ -46,6 +46,9 @@ img{
 .nav-container {
     display: flex;
     align-items: center;
+    transition-property: color;
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 } 
 .list-menu{
     display: flex;
@@ -65,6 +68,10 @@ img{
     letter-spacing: 0.03em;
     color: #4d5ae5;
     margin-right: 76px;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list{
@@ -77,6 +84,9 @@ img{
     text-decoration: none;
     padding: 24px 0;
     position: relative;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active{
@@ -95,11 +105,11 @@ img{
     bottom: -1px;
 }
 
-nav a,
+
 nav a:hover,
 nav a:focus{
     color: #404bbf;
-    text-decoration: none;
+    
 }
 
 .studio_color{
@@ -119,6 +129,9 @@ nav a:focus{
     color: #434455;
     text-decoration: none;
     padding: 24px 0;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list:hover,
@@ -176,6 +189,9 @@ nav a:focus{
     margin-top: 48px;
     margin-left: auto;
     margin-right: auto;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -300,19 +316,27 @@ nav a:focus{
     height: 40px;
     border-radius: 50%;
     background-color:#4d5ae5;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-icons{
     margin: 12px;
 }
 .social-links .svg-icons{
     fill: #fff;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-links .link:hover {
+.social-links .link:hover,
+.social-links .link:focus {
     background-color: #404BBF;
 }
 
-.social-links .link:hover .svg-icons{
+.social-links .link:hover .svg-icons,
+.social-links .link:focus .svg-icons{
     fill: #fff;
 }
 
@@ -355,6 +379,35 @@ nav a:focus{
 .image-list{
     width: 100%;
     object-fit: cover;
+}
+
+.photo-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlow-block{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px 32px;
+    background: #4d5ae5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd; 
+    transform: translateY(100%);
+    transition: transform 300ms ease-in-out;
+}
+
+.photo-wrapper:hover .overlow-block{
+    transform: translateY(0%);
+}
+
+.list-images .item:hover{
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .list-image-portfolio{
@@ -420,11 +473,13 @@ nav a:focus{
 .social-media .container-social-links .social-links .svg-icons{
     margin: 8px;
 }
-.social-media .container-social-links .social-links .link:hover {
+.social-media .container-social-links .social-links .link:hover,
+.social-media .container-social-links .social-links .link:focus {
     background-color: #31D0AA;
 }
 
-.social-media .container-social-links .social-links .link:hover .svg-icons {
+.social-media .container-social-links .social-links .link:hover .svg-icons,
+.social-media .container-social-links .social-links .link:focus .svg-icons {
     fill: #fff;
 }
 .studio_color_footer{
