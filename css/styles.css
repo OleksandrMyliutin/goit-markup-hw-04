@@ -488,16 +488,22 @@ nav a:focus{
     margin-top: 16px;
 }
 
+.social-media .social-links{
+    display: flex;
+    gap: 16px;
+
+}
+
 .social-media .container-social-links .social-links .svg-icons{
     margin: 8px;
 }
-.social-media .container-social-links .social-links .link:hover,
-.social-media .container-social-links .social-links .link:focus {
+.social-link-item .link:hover,
+.social-link-item .link:focus {
     background-color: #31D0AA;
 }
 
-.social-media .container-social-links .social-links .link:hover .svg-icons,
-.social-media .container-social-links .social-links .link:focus .svg-icons {
+.social-link-item .link:hover .svg-icons,
+.social-link-item .link:focus .svg-icons {
     fill: #fff;
 }
 .studio_color_footer{
