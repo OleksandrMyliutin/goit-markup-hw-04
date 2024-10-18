@@ -488,13 +488,14 @@ nav a:focus{
     margin-top: 16px;
 }
 
-.social-media .social-links{
+.social-media .social-links-foot{
     display: flex;
     gap: 16px;
 
 }
 
-.social-media .container-social-links .social-links .svg-icons{
+
+.social-links-foot .svg-icons{
     margin: 8px;
 }
 .social-link-item .link:hover,
