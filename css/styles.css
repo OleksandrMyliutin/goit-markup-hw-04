@@ -508,7 +508,7 @@ nav a:focus{
 
 .social-link-item .link:hover .svg-icons,
 .social-link-item .link:focus .svg-icons {
-    fill: #fff;
+    fill: #f4f4fd;
 }
 .studio_color_footer{
     color: #f4f4fd
