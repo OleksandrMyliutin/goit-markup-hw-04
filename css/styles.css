@@ -339,8 +339,8 @@ nav a:focus{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-links .link:hover,
-.social-links .link:focus {
+.link:hover,
+.link:focus {
     background-color: #404bbf;
 }
 
@@ -501,8 +501,8 @@ nav a:focus{
 .social-media .social-links .svg-icons{
     margin: 8px;
 }
-.social-link-item .link:hover,
-.social-link-item .link:focus {
+.social-media .social-link-item .link:hover,
+.social-media .social-link-item .link:focus {
     background-color: #31D0AA;
 }
 
