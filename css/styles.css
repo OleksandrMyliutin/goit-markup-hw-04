@@ -488,13 +488,12 @@ nav a:focus{
     margin-top: 16px;
 }
 
-.social-media .social-links{
+.fix{
     display: flex;
     gap: 16px;
-
 }
 
-.social-link-item {
+.fix-link{
     width: 40px;
     height: 40px;
 }
