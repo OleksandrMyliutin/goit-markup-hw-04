@@ -35,7 +35,6 @@ img{
 
                   /* header */
 .body-header-style{
-    max-width: 1440px;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -205,8 +204,7 @@ nav a:focus{
                     /* advantages section */
 
  .advantages {
-    padding: 120px;
-    max-width: 1440px;
+    padding: 120px 0px;
 } 
 
 .list-par{
@@ -275,8 +273,7 @@ nav a:focus{
 
 .team{
     background: #f4f4fd;
-    padding: 120px;
-    max-width: 1440px;
+    padding: 120px 0px;
 }
 
 .title-under-img{
@@ -365,8 +362,7 @@ nav a:focus{
 
                     /* portfolio-section */
 .portfolio{
-    padding: 120px;
-    max-width: 1440px;
+    padding: 120px 0px;
 }
         
 
@@ -438,12 +434,10 @@ nav a:focus{
                     /* footer-section */
 .footer-page {
     padding: 100px 0;
-    max-width: 1440px;
 }
 
 .footer-container{
     display: flex;
-    gap: 120px;
     align-items: baseline;
 }
 
